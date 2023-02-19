@@ -8,7 +8,7 @@ class Tower {
     y
     drawer 
     stateManager
-    framesPerFire = 60 / 4; //fps is 60, 60 framesPerFire = 1 fire per second, 00 / 4 means 4 shoots per second seems not working
+    framesPerFire = 60 / 4;
     constructor(cell, stateManager) {
         this.#cell = cell;
         this.#cell.hasTower = true;

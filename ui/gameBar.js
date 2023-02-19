@@ -13,10 +13,10 @@ class GameBar {
         const { worldCanvasOffset } = this.#stateManager.getMetaData();
         const gameState = this.#stateManager.getGameState();
         const ctx = this.#stateManager.getContext();
-        this.killCountBoard.updateValue(gameState.killCount); // TODO
-        this.goldCountBoard.updateValue(gameState.gold); // TODO
-        this.levelBoard.updateValue(gameState.level); // TODO
-        this.liveBoard.updateValue(gameState.lives); // TODO
+        this.killCountBoard.updateValue(gameState.killCount);
+        this.goldCountBoard.updateValue(gameState.gold);
+        this.levelBoard.updateValue(gameState.level);
+        this.liveBoard.updateValue(gameState.lives)
         this.killCountBoard.draw();
         this.goldCountBoard.draw();
         this.levelBoard.draw();

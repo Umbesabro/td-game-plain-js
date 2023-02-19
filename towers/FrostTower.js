@@ -1,4 +1,4 @@
-class FrostTower extends Tower { // todo rename file
+class FrostTower extends Tower {
 
     #projectileSpeed = 10
     #projectileSize = 4

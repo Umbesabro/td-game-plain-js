@@ -20,6 +20,6 @@ class RocketTower extends Tower { // todo rename file
     }
 
     draw() {
-        this.drawer.draw(this.x, this.y, 22, this.#name); // Dont like to drawer logic - refactor it
+        this.drawer.draw(this.x, this.y, 22, this.#name);
     }
 }
